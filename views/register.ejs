@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Information Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F5F5F5;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+          margin-top:3rem;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #footer
+        {
+          position: relative;
+          background-color:rgb(225,219,219) ;
+          text-align: center;
+          margin-top: 230rem;
+          margin-bottom: 0;
+        }
+        #footer p{
+          color:black;
+          margin-bottom:0;
+        }
+
+        .footer-icon
+        {
+          margin:3rem 1rem;
+          font-size: 1.7rem;
+        }
+
+
+        select {
+            height: 40px;
+        }
+
+        .form-group::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Company Information Form</h2>
+        <form action="/" method="post" autocomplete="off">
+            <div class="form-group">
+                <label for="companyName">Name of Company:</label>
+                <input type="text" id="companyName" name="companyName" required>
+            </div>
+            <div class="form-group">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required>
+            </div>
+            <div class="form-group">
+                <label for="category">Category:</label>
+                <select id="category" name="category" required>
+                    <option value="Private">Private</option>
+                    <option value="Government">Government</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="industry">Type of Industry:</label>
+                <select id="industry" name="industry" required>
+                    <option value="Manufacturing Industry">Manufacturing Industry</option>
+                    <option value="Electronic Industry">Electronic Industry</option>
+                    <option value="Automotive Industry">Automotive Industry</option>
+                    <option value="Energy Industry">Energy Industry</option>
+                    <option value="Textile and Apparel Industry">Textile and Apparel Industry</option>
+                    <option value="Chemical Industry">Chemical Industry</option>
+                    <option value="Other">Other (please specify)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <div class="form-group">
+                    <label for="phone">Phone no:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="licenceNo">Licence No:</label>
+                <input type="text" id="licenceNo" name="licenceNo" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+        <footer id="footer">
+      <p><i class="fa-brands fa-twitter footer-icon"></i> <i class="fa-brands fa-facebook footer-icon"></i><i class="fa-brands fa-instagram footer-icon"></i><i class="fa-brands fa-linkedin footer-icon"></i></p>
+          <p>© Copyright made with <i class="fa-solid fa-heart"></i> by Aditya Chandrakar TinDog</p>
+
+        </footer>
+
+</body>
+</html

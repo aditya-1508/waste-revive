@@ -1,0 +1,101 @@
+h1
+{
+font-family: 'Lora', serif;
+color: grey;
+text-align: center;
+margin-top: 3rem;
+}
+p
+{
+  margin-top: 1rem;
+
+  border-radius: 3rem;
+
+  line-height: 3rem;
+font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+
+
+}
+.middle{
+  padding:3rem 3rem;
+}
+
+.card
+{
+
+  border: 0.2rem solid grey;
+  text-align: center;
+  margin: 3rem 5rem;;
+}
+.material{
+  text-align: center;
+  margin:3rem auto 3rem auto;
+  height:15rem;
+  width:30rem;
+  position: relative;
+}
+table{
+  border-style: dotted;
+}
+.top_plas{
+  background-color: #F5F5F5;
+  padding: 2rem;
+}
+
+.h2-card
+{
+  color:black;
+  font-size: 2rem;
+  font-family: "Sacramento";
+  font-weight: normal;
+}
+.h3-card
+{
+  font-family: "Sacramento";
+  font-weight: bold;
+}
+.card-text
+{
+  color:grey;
+  font-style: "Montserrat";
+  font-weight: 500;
+}
+td{
+  border-style: dotted;
+  padding: 2rem;
+}
+
+.midddle{
+  background-color: rgb(243,219,219);
+}
+table{
+  margin:5rem 10rem;
+}
+.card-button
+{
+  background-color: white;
+}
+.card-button:hover
+{
+  background-color: grey;
+}
+
+#footer
+{
+  position: relative;
+  background-color:rgb(225,219,219) ;
+  text-align: center;
+  margin-top: 230rem;
+  margin-bottom: 0;
+}
+#footer p{
+  color:black;
+  margin-bottom:0;
+}
+
+.footer-icon
+{
+  margin:3rem 1rem;
+  font-size: 1.7rem;
+}

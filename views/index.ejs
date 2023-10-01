@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/style.css">
+    <style>body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #F5F5F5;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+/* Style the navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-links li {
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    color: #0f1111;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    /* border: 1.5px solid black; */
+}
+
+/* Change link color on hover */
+
+ .para{
+
+font-family: 'Merriweather Sans', sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+
+ }
+.producer{
+    background-color: rgb(192, 182, 184);
+    border-radius: 2rem;
+    border: solid;
+    height: 400px;
+    width: 400px;
+    text-decoration: dotted;
+}
+.producerhead{
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #F5F5F5;
+}
+
+.box{
+
+    height: 400px;
+    width: 23%;
+    background-color:#FAFAFA;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p{
+    color: #007185;
+}
+
+/* footer */
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+   background-color: #F5F5F5;
+   color:black;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 0.85rem;
+}
+
+.foot-panel2{
+   background-color:#F5F5F5;
+   color:black;
+   height: 300px;
+   display: flex;
+   justify-content: space-evenly;
+
+}
+
+ul{
+   margin-top: 20px;
+}
+
+ul a{
+   display: block;
+   font-size: 0.85rem;
+   margin-top: 10px;
+   color: #dddddd;
+}
+
+.foot-panel3{
+   background-color: #F5F5F5;
+   color: black;
+   border-top: 0.5px solid white;
+   height: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.logo{
+
+   background-size: cover;
+   height: 50px;
+   width: 100px;
+
+
+}
+
+.top_button{
+margin-right: 2rem;
+}
+
+.foot-panel4{
+   background-color: #F5F5F5;
+   color: black;
+   height: 100px;
+   font-size: 0.7rem;
+   text-align: center;
+}
+
+.pages{
+     padding-top: 25px;
+}
+
+.copyright{
+   padding-top: 5px;
+}
+.section1{
+    border:2px solid black;
+}
+.section{
+    margin-top: 50px;
+}
+.abc{
+    margin: 10px 400px;
+    background-color:#F5F5F5;
+    border-radius: 20%;
+    padding: 25px;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+h1,h2{
+    font-family: cursive;
+    text-decoration: underline;
+    text-align: center;
+}
+.logo_top{
+  height:4.5rem;
+}
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <div class="navbar-brand">
+              <img class="logo_top" src="images/bg.png" alt="">
+
+            </div>
+        </div>
+        <ul class="nav-links">
+          <button class="top_button btn btn-light" type="button" name="login">  <li><a href="/login">login</a></li></button>
+          <button class="top_button btn btn-light" type="button" name="user_register">  <li><a href="/user_register">Register</a></li></button>
+          <button class="top_button btn btn-light" type="button" name="register">  <li> <a href="/register">new user</a> </li></button>
+        </ul>
+    </nav>
+    <div class="para">
+        <p>a digital marketplace where people can buy products from producers who list their items for sale, creating a
+            platform for online shopping and selling.</p>
+    </div>
+
+   <section class="section1">
+    <div class="shop-section">
+        <div class=" box">
+            <div class="box-content">
+                <h2>Producer</h2>
+                <div class="imageof">
+                    <img src="images/producer.jpeg">
+                    <p><button type="button" class="btn btn-light"><a href="/register">Register❤️</a></button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class=" box">
+            <div class="box-content">
+                <h2>Consumer</h2>
+                <div class="imageof">
+                    <img src="images/consumer.jpeg">
+                    <p><button type="button" class="btn btn-light"><a href="/shop">shop now❤️</a></button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="abc">
+        <h3>1. WASTE360</h3>
+         <!-- <img src="public/images/waste1.webp"> -->
+        <p class="para">
+         Waste360 is a comprehensive source of information on the waste and recycling industry. The publication covers many topics, including waste management, recycling, sustainability, and more. Waste360’s team of experienced journalists provides breaking news, expert insights, and in-depth reporting on the latest industry developments.The publication’s coverage includes emerging technologies, market trends, and best practices in waste and recycling. The publication also offers a variety of resources, including webinars, events, and industry reports, to help its audience stay informed on the latest developments in the waste and recycling industry. This blog is one of our go-to resources for sharing waste news on social media and informing ourselves about the latest in waste.
+        </p>
+     </div>
+
+     <div class="abc">
+         <h3>2. WASTEBITS</h3>
+         <!-- <img src="images/waste1.webp"> -->
+         <p class="para">
+             Wastebits is a waste management software solution that simplifies waste management operations, and they also have a blog that showcases articles on waste and sustainability (self-promotion alert). The Waste and Sustainability Blog is a resource for industry insights, regulatory compliance, waste reduction, and waste tracking. The blog offers tips and tricks to help streamline your waste management operations, reduce costs, and achieve compliance with ease. Additionally, the Wastebits Blog provides educational resources on waste reduction, sustainability, and environmental conservation. Whether you’re an industry professional or an individual looking to make a positive change, the Wastebits Blog has valuable insights and resources to help you on your journey toward sustainability.
+         </p>
+      </div>
+
+      <div class="abc">
+         <h3>3.WASTE DIVE</h3>
+         <!-- <img src="images/waste1.webp"> -->
+         <p class="para">
+             Waste Dive is a comprehensive news and analysis platform covering the waste and recycling industry. The publication provides breaking news, expert insights, and in-depth reporting on a wide range of topics, including waste management, recycling, sustainability, policy, and more. Waste Dive’s coverage is backed by a team of experienced journalists dedicated to providing timely and accurate information on the latest industry developments.Waste Dive’s commitment to providing high-quality content on a range of essential issues has made it one of the most trusted sources of information in the waste and recycling industry. Along with Waste360, it is one of our primary sources of daily waste news, and we share posts from this site frequently on our social channels. Their email newsletters are also informative and a must-read for anyone involved with professional waste management.
+         </p>
+      </div>
+
+      <div class="abc">
+         <h3>4. WASTE ADVANTAGE MAGAZINE</h3>
+         <!-- <img src="images/waste1.webp"> -->
+         <p class="para">
+             Waste Advantage Magazine is a specialized publication focusing on the waste and recycling industry. The magazine provides news, analysis, and features on topics such as waste management, recycling, and sustainability. Waste Advantage Magazine also features in-depth reporting on industry developments, emerging technologies, and best practices. The magazine’s target audience includes waste and recycling professionals, government officials, and industry stakeholders. Waste Advantage Magazine offers a platform for industry experts to share their insights and opinions on critical issues affecting the waste and recycling industry. It is a valuable resource for anyone interested in staying up-to-date with the latest trends and innovations in waste management and recycling.
+         </p>
+      </div>
+
+      <div class="abc">
+         <h3>5. RECYCLING TODAY</h3>
+         <!-- <img src="images/waste1.webp"> -->
+         <p class="para">
+             Recycling Today is a highly respected publication that provides valuable insights and analysis on the recycling industry. With over five decades of experience covering the industry, Recycling Today offers in-depth reporting on a wide range of topics, including ferrous and nonferrous metals, paper and plastics, electronics, and more. The publication’s coverage of market trends, industry challenges, and best practices makes it a valuable resource for waste and recycling professionals, government officials, and industry stakeholders. Recycling Today’s commitment to providing accurate and up-to-date information on the latest industry developments has made it a trusted source for anyone interested in the recycling industry.
+         </p>
+      </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="foot-panel1">
+            Back to top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to know us</p>
+                <a>Careers</a>
+                <a>About us</a>
+                <a>Investor Relations</a>
+
+            </ul>
+
+            <ul>
+                <p>Connect with Us</p>
+                <a>Facebook</a>
+                <a>Twitter</a>
+                <a>Instagram</a>
+            </ul>
+
+            <ul>
+                <p>Make Money with Us</p>
+                <a>Sell on app</a>
+                <a> Protect and Build Your Brand</a>
+                <a>app Global Selling</a>
+                <a>Become an Affiliate</a>
+                <a> Fulfilment by app</a>
+                <a>Advertise Your Products</a>
+            </ul>
+
+            <ul>
+                <p> Let Us Help You</p>
+                <a>Your Account</a>
+                <a> Returns Centre</a>
+                <a>100% Purchase Protection</a>
+                <a> App Download</a>
+                <a>Help</a>
+            </ul>
+        </div>
+
+        <div class="foot-panel3">
+            <div class="logo">
+            </div>
+        </div>
+
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditons of Use </a>
+                <a>Privacy Notice</a>
+                <a>Your Ads Privacy Choice</a>
+            </div>
+            <div class="copyright">
+                Conditions of Use & Sale Privacy Notice Interest-Based Ads
+                © 1996-2023, app.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
